@@ -1,2 +1,2 @@
-# Kirillova_Serdakov_fall_2020
+# BI_Resistance_simulation_model
 Fall project in Bioinformatics Institute
