@@ -24,7 +24,7 @@ The main parameters that can be varied to obtain different results are the initi
 ## Simulation output
 The program allows to visualize the dynamics of changes in the number of sensitive and resistant bacteria over time under the pressure of an antibiotic entering the system by plotting graphs that allow to assess the spread of resistance. The program also displays an animation that simulates the real behavior of bacteria and illustrates the process of antibiotic intake and the changes it leads to.  
 
-![Model animation](https://media.giphy.com/media/vRZrnkpf597i0fd4PZ/giphy.gif)
+![Model animation](https://i.giphy.com/media/vRZrnkpf597i0fd4PZ/giphy.gif)
 
 ## References
 1. Arepeva, Maria et al. “What should be considered if you decide to build your own mathematical model for predicting the development of bacterial resistance? Recommendations based on a systematic review of the literature.” Frontiers in microbiology vol. 6 352. 29 Apr. 2015, doi:10.3389/fmicb.2015.00352
