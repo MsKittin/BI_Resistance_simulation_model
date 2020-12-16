@@ -24,8 +24,6 @@ The main parameters that can be varied to obtain different results are the initi
 ## Simulation output
 The program allows to visualize the dynamics of changes in the number of sensitive and resistant bacteria over time under the pressure of an antibiotic entering the system by plotting graphs that allow to assess the spread of resistance. The program also displays an animation that simulates the real behavior of bacteria and illustrates the process of antibiotic intake and the changes it leads to.  
 
-<a href="https://drive.google.com/uc?export=view&id=<1yDszgTT844uyy9MDjtDpN1izPngS3dn->"><img src="https://drive.google.com/uc?export=view&id=<FILEID>" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
-
 ## References
 1. Arepeva, Maria et al. “What should be considered if you decide to build your own mathematical model for predicting the development of bacterial resistance? Recommendations based on a systematic review of the literature.” Frontiers in microbiology vol. 6 352. 29 Apr. 2015, doi:10.3389/fmicb.2015.00352
 2. [Celluloid](https://github.com/jwkvam/celluloid) package for animations creating.
