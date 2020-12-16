@@ -28,8 +28,6 @@ The program allows to visualize the dynamics of changes in the number of sensiti
 
 ![image](https://drive.google.com/uc?export=view&id=1j1TOQpdCnACX9ZdkS5LuBysEsTZMQMD3)  
 
-<a href="https://drive.google.com/uc?export=view&id=<FILEID>"><img src="https://drive.google.com/uc?export=view&id=1j1TOQpdCnACX9ZdkS5LuBysEsTZMQMD3" style="width: 350px; max-width: 100%; height: auto" title="Click to enlarge picture" />
-
 ## References
 1. Arepeva, Maria et al. “What should be considered if you decide to build your own mathematical model for predicting the development of bacterial resistance? Recommendations based on a systematic review of the literature.” Frontiers in microbiology vol. 6 352. 29 Apr. 2015, doi:10.3389/fmicb.2015.00352
 2. [Celluloid](https://github.com/jwkvam/celluloid) package for animations creating.
