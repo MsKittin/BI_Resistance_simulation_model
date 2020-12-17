@@ -10,7 +10,7 @@ An agent-based approach to modeling is used, which consists in assigning predete
 ## Requirements
 Interpreter: Python >=3.6  
 OS: Any (Linux preferably for celluloid package installation)  
-CPU:  
+CPU: 200-300 MB  
 
 Packages:  
 numpy 1.19.4  
