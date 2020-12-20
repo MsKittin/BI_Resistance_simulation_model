@@ -123,7 +123,7 @@ capture_dist = 1  # plasmid capture distance
 death_time = 50  # maximum bacteria lifetime
 division_time_sens = 15  # division of sensitive cell
 division_time_res = 25  # division of resistant cell
-become_resistant_threshold = 0.99  # probability of a sensitive cell accidentally becoming resistant
+become_resistant_threshold = 0.999  # probability of a sensitive cell accidentally becoming resistant
 hungry_death_time = 35  # the maximum time a bacterium lives without nutrition
 v_bac_sens = 1  # movement speed of a sensitive bacteria to a nutrient
 v_bac_res = 0.7  # movement speed of a resistant bacteria to a nutrient
@@ -232,7 +232,7 @@ for step in range(steps):
         if len(food) == 0:  # if nutrition is over, then we don't do anything to find it
             continue
 
-        if bacteria.starving > 5:  # if bacteria starving more than 5 steps, it looking for nutrition
+        if bacteria.starving > 15:  # if bacteria starving more than 15 steps, it looking for nutrition
             if bacteria.aimed_food_coord is None:  # if nearest food coordinates are not known, we find it
                 nearest_food_distance = None
                 nearest_food_idx = 0
@@ -285,7 +285,7 @@ for step in range(steps):
             else:  # if the nutrient has already been eaten, looking for a new one
                 bacteria.aimed_food_coord = None
 
-        else:  # if starving value is lower than 5, the bacteria does not need nutrition and moves randomly
+        else:  # if starving value is lower than 15, the bacteria does not need nutrition and moves randomly
             new_x_coord = bacteria.bac_coord.x + np.random.uniform(-2, 2)
             new_y_coord = bacteria.bac_coord.y + np.random.uniform(-2, 2)
             new_xy = Coord(new_x_coord, new_y_coord)
