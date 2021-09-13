@@ -1,5 +1,5 @@
 # Agent-based modeling of the spread of antibiotic resistance in a bacterial population, taking into account spatial coordinates, reception of nutrients and antibacterial agents
-Fall project in [Bioinformatics institute](https://bioinf.me/en).
+2021 fall project in [Bioinformatics institute](https://bioinf.me/en).
 
 ## Aim of the project
 To model a system that allows to observe the dynamics of the spread of resistance in a bacterial population based on the specified parameters.  
