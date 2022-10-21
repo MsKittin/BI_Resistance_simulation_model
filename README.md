@@ -18,7 +18,10 @@ matplotlib 3.3.3
 celluloid 0.2.0  
 
 ## Instructions for running the program
-All program code is presented in the `main.py` file and can be run in Pycharm.
+Firstly, one has to install requirements.
+It can be done using your IDE or via typing `pip install -r requirements.txt` in the terminal.
+
+All program code is presented in the `main.py` file and can be run in Pycharm or in the terminal (`python main.py`).
 The main parameters that can be varied to obtain different results are the initial bacterial count and the nutrient quantity. It is also possible to vary the values of the variables for the maximum life of bacteria, the speed of movement and division of bacterial cells, the probability for a sensitive cell to become resistant, and the probability of accidental loss of the plasmid by a resistant bacterium.  
 
 ## Simulation output
